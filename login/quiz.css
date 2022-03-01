@@ -1,0 +1,47 @@
+body{
+    margin-top: 20px;
+    background: #2BC0E4;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #EAECC6, #2BC0E4);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EAECC6, #2BC0E4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.main{
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.topbar{
+    background-color: teal;
+    overflow: hidden;
+}
+.topbar a{
+    float: right;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px 26px;
+    text-decoration: none;
+    font-size: 26px;
+}
+.stack{
+    
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.size{
+    height: 250px;
+    width: 250px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    text-align: center;
+    margin: 2%;
+    font-size: 25px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
